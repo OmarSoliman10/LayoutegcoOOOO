@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link className="nav-link" to="/">الرئيسية</Link>
         </li>
         <li className="nav-item ms-3">
-        <Link className="nav-link" to="business">اعمالنا</Link>
+        <Link className="nav-link" to="OfferYou">اعمالنا</Link>
         </li>
         <li className="nav-item ms-3">
         <Link className="nav-link" to="service">خدماتنا</Link>

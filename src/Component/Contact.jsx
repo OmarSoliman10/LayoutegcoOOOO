@@ -45,6 +45,7 @@ export default function Contact() {
     },
     heading: {
       textAlign: 'center',
+      fontWeight: 'bold',
       color: '#0e776a'
     },
     subheading: {
@@ -135,7 +136,7 @@ export default function Contact() {
         <Container>
           <Row className="text-center ">
             <Col>
-              <h2 style={{ color: '#0e776a' }}>كن علي اتصال دائم بنا</h2>
+              <h1 style={{ color: '#0e776a' }} className='fw-bolder'>كن علي اتصال دائم بنا</h1>
               <p className='fw-bolder' style={{ color: '#1e1e1e' }}>تواصل معنا ولا تشيل أي هم</p>
             </Col>
           </Row>

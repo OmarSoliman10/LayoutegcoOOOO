@@ -36,7 +36,7 @@ export default function HomePage() {
   return (<>
 {/* تحت navbar */}
 <header className="d-flex justify-content-center align-items-center">
-      <div className="header-content text-white ps-4">
+      <div className="header-content text-white ps-4 ">
         <div className="social-container py-1 text-center">
 
           <motion.h1
@@ -54,7 +54,7 @@ export default function HomePage() {
 
           {/* العنوان مع الحركة */}
           <motion.h2
-            className='my-2'
+            className='my-2 text-center '
             ref={ref}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
@@ -66,7 +66,7 @@ export default function HomePage() {
 
           {/* الفقرة الأولى مع الحركة */}
           <motion.p
-            className='m-0 pt-2 fw-bold'
+            className='m-0 pt-2 fw-bold text-center'
             ref={ref}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
@@ -78,7 +78,7 @@ export default function HomePage() {
 
           {/* الفقرة الثانية مع الحركة */}
           <motion.p
-            className='m-0 fw-bold'
+            className='m-0 fw-bold text-center'
             ref={ref}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}

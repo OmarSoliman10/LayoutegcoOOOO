@@ -92,7 +92,7 @@ export default function Possibilities() {
       </div>
 
       {/* حركة العدادات */}
-      <div style={{ display: 'flex', justifyContent: 'space-around', backgroundColor: '#1c1c1c', padding: '45px' }}>
+      <div className='py-5' style={{ display: 'flex', justifyContent: 'space-around', backgroundColor: '#1c1c1c'}}>
         <motion.div
           ref={countersRef}
           initial="hidden"
